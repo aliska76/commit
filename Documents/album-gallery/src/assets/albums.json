@@ -1,0 +1,38 @@
+[
+    {
+      "_id": "album-1",
+      "title": "John Doe's Album",
+      "userId": "uuid-1",
+      "images": ["image-1", "image-2", "image-3"],
+      "imageCount": 3,
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "album-2",
+      "title": "Jane Smith's Album",
+      "userId": "uuid-2",
+      "images": ["image-4", "image-5", "image-6"],
+      "imageCount": 3,
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "album-3",
+      "title": "Alice Johnson's Album",
+      "userId": "uuid-3",
+      "images": ["image-7", "image-8", "image-9"],
+      "imageCount": 3,
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "album-4",
+      "title": "Bob Brown's Album",
+      "userId": "uuid-4",
+      "images": ["image-10", "image-11", "image-12"],
+      "imageCount": 3,
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    }
+]

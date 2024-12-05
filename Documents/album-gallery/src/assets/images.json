@@ -1,0 +1,110 @@
+[
+    {
+      "_id": "image-1",
+      "albumId": "album-1",
+      "userId": "uuid-1",
+      "url": "https://picsum.photos/id/237/200/300",
+      "alt": "A beautiful landscape",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-2",
+      "albumId": "album-1",
+      "userId": "uuid-1",
+      "url": "https://picsum.photos/id/10/200/300",
+      "alt": "A serene lake",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-3",
+      "albumId": "album-1",
+      "userId": "uuid-1",
+      "url": "https://picsum.photos/id/237/200/300",
+      "alt": "A vibrant city skyline",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-4",
+      "albumId": "album-2",
+      "userId": "uuid-2",
+      "url": "https://picsum.photos/id/860/200/300",
+      "alt": "A majestic mountain",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-5",
+      "albumId": "album-2",
+      "userId": "uuid-2",
+      "url": "https://picsum.photos/id/237/200/300",
+      "alt": "A colorful autumn forest",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-6",
+      "albumId": "album-2",
+      "userId": "uuid-2",
+      "url": "https://picsum.photos/id/10/200/300",
+      "alt": "A peaceful beach sunset",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-7",
+      "albumId": "album-3",
+      "userId": "uuid-3",
+      "url": "https://picsum.photos/id/237/200/300",
+      "alt": "A bustling market",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-8",
+      "albumId": "album-3",
+      "userId": "uuid-3",
+      "url": "https://picsum.photos/id/10/200/300",
+      "alt": "A historic castle",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-9",
+      "albumId": "album-3",
+      "userId": "uuid-3",
+      "url": "https://picsum.photos/id/237/200/300",
+      "alt": "A breathtaking waterfall",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-10",
+      "albumId": "album-4",
+      "userId": "uuid-4",
+      "url": "https://picsum.photos/id/860/200/300",
+      "alt": "A starry night sky",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-11",
+      "albumId": "album-4",
+      "userId": "uuid-4",
+      "url": "https://picsum.photos/id/237/200/300",
+      "alt": "A cozy winter scene",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    },
+    {
+      "_id": "image-12",
+      "albumId": "album-4",
+      "userId": "uuid-4",
+      "url": "https://picsum.photos/id/10/200/300",
+      "alt": "A playful puppy",
+      "createdAt": "2023-11-22T10:00:00Z",
+      "updatedAt": "2023-11-22T10:00:00Z"
+    }
+]

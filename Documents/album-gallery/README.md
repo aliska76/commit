@@ -97,3 +97,132 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+Album Gallery
+This is a simple React-based application that allows users to view albums and their corresponding images in a carousel. The app fetches album data for a user and displays a carousel of images for each album. It uses the react-responsive-carousel component to show the images in a smooth, swipeable carousel format.
+
+Features
+Fetches users from a backend API.
+Allows selecting a user to view their albums.
+Displays albums and images fetched from the backend.
+Uses a carousel component to display images for each album.
+Responsive layout for viewing images on both desktop and mobile devices.
+
+Technologies Used
+React: JavaScript library for building user interfaces.
+TypeScript: Superset of JavaScript for type safety.
+Material-UI: React component library for building UI components.
+react-responsive-carousel: Carousel component for displaying images.
+CSS: Styling for layout and design.
+Mongoose: ODM (Object Data Modeling) library for MongoDB, used to interact with the database.
+MongoDB: Database used to store users, albums, and images data.
+
+Setup and Installation
+Clone the repository to your local machine.
+
+Install the required dependencies.
+  npm install
+To run frontend the application locally, use the following command:
+  npm start from /elementor-photo-album folder
+
+Backend Setup (Using Mongoose with MongoDB)
+Install dependencies for the backend.
+run npm install in root project folder
+This will start the React app and open it in your browser at http://localhost:3000.
+
+If you don't have the backend API for fetching users, albums, and images, you will need to create a mock API or replace the API calls with static data for testing.
+
+Folder Structure
+
+album-carousel-app/
+├── public/               # Public assets
+├── src/                  # Source code
+│   ├── components/       # React components
+│   ├── services/         # API functions
+│   ├── App.tsx           # Main App component
+│   ├── AlbumCarousel.tsx # Carousel component for displaying albums and images
+│   └── index.tsx         # Entry point for React app
+├── .gitignore            # Git ignore file
+├── package.json          # Project dependencies and scripts
+└── README.md             # This file
+
+How it Works
+App Component (App.tsx):
+
+Fetches a list of users from the backend.
+When a user is selected, their albums are fetched using the getAlbumsByUserId API call.
+Each album is displayed with a title and a button to view the images.
+AlbumCarousel Component (AlbumCarousel.tsx):
+
+Fetches the images for a specific album using the getImagesByAlbumId API call.
+Displays the images in a carousel using the react-responsive-carousel component.
+API Service (services/api.ts):
+
+Contains functions to interact with the backend API to fetch users, albums, and images:
+getUsers(): Fetches a list of users.
+getAlbumsByUserId(userId: string): Fetches the albums of a specific user.
+getImagesByAlbumId(albumId: string): Fetches the images of a specific album.
+
+API Example
+1. Get Users
+Endpoint: GET /api/users
+
+Response:
+
+json
+Copy code
+[
+  {
+    "_id": "1",
+    "name": "John Doe"
+  },
+  {
+    "_id": "2",
+    "name": "Jane Smith"
+  }
+]
+2. Get Albums by User ID
+Endpoint: GET /api/users/{userId}/albums
+
+Response:
+
+json
+Copy code
+[
+  {
+    "_id": "101",
+    "title": "Vacation 2023"
+  },
+  {
+    "_id": "102",
+    "title": "Family Photos"
+  }
+]
+3. Get Images by Album ID
+Endpoint: GET /api/albums/{albumId}/images
+
+Response:
+
+[
+  {
+    "url": "https://example.com/images/vacation1.jpg"
+  },
+  {
+    "url": "https://example.com/images/vacation2.jpg"
+  }
+]
+
+Usage
+After the app loads, select a user by clicking the "View Albums" button next to their name.
+Once a user is selected, their albums will be displayed.
+Click on an album to view the images associated with it in a carousel.
+Navigate through the images in the carousel using swipe gestures or arrows.
+
+Customization
+You can modify the getImagesByAlbumId, getAlbumsByUserId, and getUsers API calls to point to your own backend or use mock data for testing.
+The carousel styling and layout can be customized by modifying the CSS or overriding the react-responsive-carousel component's styles.
+Future Improvements
+Implement a backend API for real data.
+Add error handling for API requests (e.g., showing loading indicators or error messages).
+Enhance accessibility (e.g., keyboard navigation for carousel).
+Implement pagination for albums and images if there are many records.
