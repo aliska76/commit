@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Apricot",
+    "price": 3.50,
+    "description": "Sweet, soft, and velvety orange fruit.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Apricot_and_cross_section.jpg"
+  },
+  {
+    "name": "Apple",
+    "price": 1.99,
+    "description": "Crisp, juicy, and perfectly sweet red apple.",
+    "imageUrl": "https://cdn.pixabay.com/photo/2016/09/29/08/33/apple-1702316_1280.jpg"
+  },
+  {
+    "name": "Banana",
+    "price": 1.20,
+    "description": "Rich in potassium, soft, and sweet energy booster.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl6cR9qHmdvVkUzmHoO1IBfT1h8OjkHUFcU5O1JkAWVw&s=10"
+  },
+  {
+    "name": "OrangeSuperExtraordinaryLongNameOrganicFruitThatMightOverflowTheHeader",
+    "price": 2.10,
+    "description": "Refreshing, tangy, and packed with Vitamin C. This is an extraordinarily detailed description of a fresh organic orange harvested directly from Mediterranean groves under the bright sun, designed to test how the UI handles multiple paragraphs and line wrapping without breaking the container grid layout.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFarFP7V1Dzmuen5anFwK0KsibdtQGaKmE3FBy6RnEpsqqZHHNQQafOFPh&s=10"
+  },
+  {
+    "name": "Strawberry",
+    "price": 4.00,
+    "description": "Bright red, juicy, and aromatic summer berry.",
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0FOwfP4HxJ18pOAbWn5Du_zQ7tvnqD2jVLNnm_kgDbtaA8swEyj3RwCg&s=10"
+  },
+  {
+    "name": "Kiwi",
+    "price": 2.80,
+    "description": "Exotic green fruit with a unique sweet-tart flavor.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Kiwi_aka.jpg"
+  },
+  {
+    "name": "Pineapple",
+    "price": 5.50,
+    "description": "Tropical, sweet, and tangy tropical fruit with spiky skin.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Pineapple_and_cross_section.jpg"
+  },
+  {
+    "name": "Mango",
+    "price": 3.99,
+    "description": "Juicy, rich, and tropical stone fruit packed with flavor.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/90/HA_mango.jpg"
+  },
+  {
+    "name": "Blueberry",
+    "price": 4.50,
+    "description": "Small, sweet, and nutrient-dense superfood berries.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/15/Blueberries_on_white_background.jpg"
+  },
+  {
+    "name": "Watermelon",
+    "price": 6.00,
+    "description": "Extremely hydrating, sweet, and refreshing summer giant.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_Watermelon.png"
+  },
+  {
+    "name": "Peach",
+    "price": 2.95,
+    "description": "Soft, fuzzy skin with sweet and aromatic golden flesh.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Autumn_Red_peach.jpg"
+  },
+  {
+    "name": "Avocado",
+    "price": 2.50,
+    "description": "Creamy, nutrient-rich fruit with healthy fats.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Avocado_with_cross_section_edit.jpg"
+  },
+  {
+    "name": "Papaya",
+    "price": 4.20,
+    "description": "Vibrant orange flesh with tropical sweetness and digestive enzymes.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Papaya_cross_section.jpg"
+  },
+  {
+    "name": "Lemon",
+    "price": 0.99,
+    "description": "Zesty, sour, and perfect for drinks or culinary seasoning.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Lemon.jpg"
+  },
+  {
+    "name": "Pomegranate",
+    "price": 3.80,
+    "description": "Ruby-red arils packed with tart flavor and antioxidants.",
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Pomegranate_open.jpg"
+  }
+]
